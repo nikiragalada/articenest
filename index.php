@@ -3,19 +3,6 @@ if($_COOKIE['id'] == ''){
 header('location: login.php');
 }
 ?>
-<?php 
-$to  = "nikbeluser1@gmail.com"; 
-
-$subject = "Хуйня"; 
-
-$message = 'Твой сайт просто ужасный!!!!';
-
-$headers  = "Content-type: text/plain; charset=windows-1251 \r\n"; 
-$headers .= "From: usa234432@gmail.com.com\r\n"; 
-$headers .= "Reply-To: usa234432@gmail.com.com\r\n"; 
-
-mail($to, $subject, $message, $headers); 
-?>
 <!doctype html>
 <html lang="ru">
   <head>
@@ -70,3 +57,4 @@ mail($to, $subject, $message, $headers);
     <script src="assets/js/search.js"></script>
   </body>
 </html>
+
